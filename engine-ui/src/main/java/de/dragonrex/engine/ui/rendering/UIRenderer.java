@@ -43,10 +43,6 @@ public final class UIRenderer {
         GL11.glEnable(GL11.GL_DEPTH_TEST);
     }
 
-    /* ======================
-       Drawing
-       ====================== */
-
     public static void drawRect(
             float x, float y,
             float w, float h,

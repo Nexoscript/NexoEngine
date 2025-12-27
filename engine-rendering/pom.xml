@@ -52,10 +52,22 @@
             <artifactId>lwjgl-opengl</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.lwjgl</groupId>
+            <artifactId>lwjgl-stb</artifactId>
+        </dependency>
+
         <!-- ========== NATIVES ========== -->
         <dependency>
             <groupId>org.lwjgl</groupId>
             <artifactId>lwjgl</artifactId>
+            <classifier>${lwjgl.natives}</classifier>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.lwjgl</groupId>
+            <artifactId>lwjgl-stb</artifactId>
             <classifier>${lwjgl.natives}</classifier>
             <scope>runtime</scope>
         </dependency>
